@@ -42,5 +42,14 @@
         int counter = 0;
         counter++;
         Console.WriteLine("Räknare efter ++: " + counter);
+
+        // Random rnd = new();
+        // int randomNumber = rnd.Next(1, 11);
+        // Console.WriteLine("Talet " + randomNumber + " är " + (EvenOrOdd(randomNumber) ? "jämnt." : "ojämnt."));
     }
+
+    // static bool EvenOrOdd(int num)
+    // {
+    //     return num % 2 == 0;
+    // }
 }
