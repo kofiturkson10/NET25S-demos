@@ -14,6 +14,9 @@ static class DictDemo
         foreach (var kvp in ages)
         {
             Console.WriteLine($"{kvp.Key} is {kvp.Value} years old");
+            System.Console.WriteLine();
+            Console.WriteLine($"Test");
+            
         }
     }
 }
